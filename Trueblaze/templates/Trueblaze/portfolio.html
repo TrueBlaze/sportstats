@@ -1,0 +1,40 @@
+
+{% extends 'Trueblaze/base.html' %}
+{% load static %}
+{% block header %}
+
+{% endblock header %}
+
+
+{% block content %}
+ <div class="jumbotron">
+     <div class="row">
+         <div class="col-md-3 text centered">
+             <h3 class="heading">Yes We Do</h3>
+             <h4>Data wrangling</h4>
+             <img src="{% static 'Trueblaze/pot2.jpg' %}">
+         </div>
+         <div class="col-md-3 text centered">
+             <h3 class="heading">Comparative Analysis</h3>
+             <h4>Who are you Comparing</h4>
+             <img src="{% static 'Trueblaze/pot3.jpg' %}">
+         </div>
+         <div class="col-md-3 text centered">
+             <h3 class="heading"> Make Sense of the Data</h3>
+             <h4>Descriptive representation</h4>
+             <img src="{% static 'Trueblaze/pot4.jpg' %}">
+         </div>
+         <div class="col-md-3 text centered">
+             <h3 class="heading">Re-branding Effects</h3>
+             <h4>A to B Analysis</h4>
+             <img src="{% static 'Trueblaze/pot5.jpg' %}">
+         </div>
+     </div>
+ </div>
+
+<div class="display light-100">
+    <h1> Make sense of the information you have</h1>
+</div>
+
+
+{% endblock content %}

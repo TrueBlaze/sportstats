@@ -1,0 +1,80 @@
+
+{% extends 'Trueblaze/base.html' %}
+{% load static %}
+
+{% block header %}
+
+{% endblock header %}
+
+
+{% block content %}
+
+    <!--- Start of about section -->
+    <div id="about">
+        <div class="jumbotron"><!--- start of jumbotron section -->
+            <h3 class="heading">World of Statistics</h3>
+        <div class="row">
+            <div class="col-md-6 text centered">
+                <h4>Work Ethics</h4>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                    when an unknown printer took a galley of type and scrambled it to make a type
+                    specimen book.
+                </p>
+
+            </div> <!--- end of the column 1 -->
+             <div class="col-md-6 text centered">
+                <h4>Customer Relation</h4>
+                <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced
+                    below for those interested. Sections 1.10.32 and 1.10.33 from
+                    "de Finibus Bonorum et Malorum"
+                </p>
+
+            </div> <!--- end of the column 2 -->
+        </div><!--- end of the row -->
+        </div><!---end of jumbotron section -->
+    <!--- Start of three column section -->
+        <div class="row padding">
+            <div class="col-md-4">
+                <div class="card text-center">
+                   <img class="card-img-top" src="{% static 'Trueblaze/card1.jpg' %}">
+                    <div class="card-body">
+                        <h4> Data Cleaning</h4>
+                        <p>
+                            The claims of duty or the obligations of business it
+                            will frequently occur that pleasures have to be repudiated
+                            and annoyances accepted
+                        </p>
+                    </div>
+                </div>
+            </div><!--- end of card section 1 -->
+            <div class="col-md-4">
+                <div class="card text-center">
+                   <img class="card-img-top" src="#">
+                    <div class="card-body">
+                        <h4>Transcribing</h4>
+                        <p>
+                             Nor again is there anyone who loves or pursues or desires to obtain
+                            pain of itself, because it is pain, but because occasionally circumstances
+                        </p>
+                    </div>
+                </div>
+            </div><!--- end of card section 2 -->
+            <div class="col-md-4">
+                <div class="card text-center">
+                   <img class="card-img-top" src="#">
+                    <div class="card-body">
+                        <h4>Visualisation</h4>
+                        <p>
+                            Ut enim ad minima veniam, quis nostrum exercitationem
+                            ullam corporis suscipit laboriosam, nisi ut aliquid ex
+                            ea commodi consequatur
+                        </p>
+                    </div>
+                </div>
+            </div><!--- end of card section 3 -->
+
+        </div><!---end of row -->
+    </div><!--- end of about section -->
+
+{% endblock content %}

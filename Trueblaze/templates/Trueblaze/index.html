@@ -1,0 +1,176 @@
+{% extends 'Trueblaze/base.html' %}
+{% load static %}
+{%  block header %}
+{% endblock header %}
+
+<!-- Two columns section -->
+{% block content %}
+{% include 'Trueblaze/slider.html' %}
+
+<div class="container-fluid">
+     <div class="row jumbotron">
+         <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+             <p class="lead">
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                 when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+             </p>
+         </div>
+     </div>
+ </div>
+<!--- welcome message --->
+<div class="container-fluid padding">
+    <div class="row welcome text-center">
+        <div class="col-12">
+            <h1 class="display-4">Ready to Rumble</h1>
+        </div>
+        <hr>
+        <div class="col-12">
+            <p class="lead">
+                It is a long established fact that
+                a reader will be distracted by the readable content of a page when looking at its layout.
+            </p>
+        </div>
+    </div>
+</div>
+<!---Three Column --->
+<div class="container-fluid padding">
+    <div class="row text-center padding">
+      <div class="col-xs-12 col-sm-6 col-md-4">
+          <i class="fa fa-wheelchair" aria-hidden="true"></i>
+          <h3>Challenged</h3>
+          <p>We're all Inclusive</p>
+      </div>
+      <div class="col-xs-12 col-sm-6 col-md-4">
+          <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+          <h3>You're Right</h3>
+          <p>Mutually Beneficial</p>
+      </div>
+      <div class="col-sm-12 col-md-4">
+          <i class="fa fa-home" aria-hidden="true"></i>
+
+          <h3>Yes</h3>
+          <p>Feel at Home</p>
+      </div>
+    </div>
+    <hr class="my-4">
+</div>
+<!---Two column section --->
+<div class="container-fluid padding">
+    <div class="row padding">
+        <div class="col-md-12 col-lg-6">
+            <h2>If you get started...</h2>
+            <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</p>
+            <p>If you are going to use a passage of Lorem Ipsum,
+                you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+            <p>Various versions have
+                evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+        </div>
+        <div class="col-lg-6">
+            <img src="{% static 'Trueblaze/desk1.jpg' %}" class="image-fluid">
+        </div>
+    </div>
+</div>
+<hr class="my-4">
+<!--- Fixed background --->
+<figure>
+    <div class="fixed-wrap">
+        <div id="fixed">
+        </div>
+    </div>
+</figure>
+<!---Meet the Team --->
+<div class="container-fluid padding">
+    <div class="row welcome text-center">
+        <div class="col-12">
+            <h1 class="display-4">Meet the Team</h1>
+        </div>
+        <hr>
+    </div>
+</div>
+<!---Cards --->
+<div class="container-fluid padding">
+    <div class="row padding">
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src="{% static 'Trueblaze/team1.jpg' %}">
+                <div class="card-body">
+                    <h4 class="card-title">Philip Namasaka</h4>
+                    <p class="card-text">Various versions have evolved over the years, sometimes by accident,
+                        sometimes on purpose (injected humour and the like).</p>
+                    <a href="#" class="btn btn-outline-secondary">See Profile</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src="{% static 'Trueblaze/fitted.jpg' %}">
+                <div class="card-body">
+                    <h4 class="card-title">Johnathan</h4>
+                    <p class="card-text">Various versions have evolved over the years, sometimes by accident,
+                        sometimes on purpose (injected humour and the like).</p>
+                    <a href="#" class="btn btn-outline-secondary">See Profile</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img class="card-img-top" src="{% static 'Trueblaze/team2.png' %}">
+                <div class="card-body">
+                    <h4 class="card-title">Mary Jo</h4>
+                    <p class="card-text">Various versions have evolved over the years, sometimes by accident,
+                        sometimes on purpose (injected humour and the like).</p>
+                    <a href="#" class="btn btn-outline-secondary">See Profile</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--- Two Column Section -->
+<div class="container-fluid padding">
+    <div class="row padding">
+        <div class="col-md-12 col-lg-6">
+            <h2>Our Philosophy</h2>
+            <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</p>
+            <p>But in certain circumstances and owing to the claims of duty or the obligations of business
+                it will frequently occur that pleasures have to be repudiated and annoyances accepted.
+                The wise man therefore always holds in these matters to this principle of selection.</p>
+            <br>
+        </div>
+        <div class="col-lg-6">
+            <img src="{% static 'Trueblaze/star.png' %}" class="image-fluid">
+        </div>
+    </div>
+    <hr class="my-4">
+</div>
+<!--- Connect -->
+<div class="container-fluid padding">
+    <div class="row text-center padding">
+        <div class="col-12">
+            <h2>Connect</h2>
+        </div>
+        <div class="col-12 social padding">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+</div>
+<br>
+<!---Leave Message Section-->
+
+<div class="container-fluid padding">
+    <a href="{% url 'Trueblaze:sign' %}" class="btn btn-outline-secondary">Leave Message</a>
+    <hr>
+        {% for c in comments %}
+        <div class="name">
+            <h6>{{c.name}}</h6>
+        </div>
+        <div class="comment">
+            <p>{{c.comment}}</p>
+        </div>
+        {% endfor %}
+</div>
+{% endblock content %}
+
